@@ -20,34 +20,31 @@
     </nav>
     
     <div class="body">
+        <h1>Calculatrice</h1>
         <div class="row">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-        </div>
-        <div class="row">
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
+            <button onclick="ajouterAuCalcul(1)">1</button>
+            <button onclick="ajouterAuCalcul(2)">2</button>
+            <button onclick="ajouterAuCalcul(3)">3</button>
         </div>
         <div class="row">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
+            <button onclick="ajouterAuCalcul(4)">4</button>
+            <button onclick="ajouterAuCalcul(5)">5</button>
+            <button onclick="ajouterAuCalcul(6)">6</button>
         </div>
         <div class="row">
-            <button>+</button>
-            <button>-</button>
-            <button>/</button>
-            <button>x</button>
+            <button onclick="ajouterAuCalcul(7)">7</button>
+            <button onclick="ajouterAuCalcul(8)">8</button>
+            <button onclick="ajouterAuCalcul(9)">9</button>
         </div>
-        <div>
-            <input type="number" name="num1" id="num1">
-            <input type="text" name="operateur" id="operateur">
-            <input type="number" name="num2" id="num2">
+        <div class="operateur">
+            <button onclick="ajouterAuCalcul('+')">+</button>
+            <button onclick="ajouterAuCalcul('-')">-</button>
+            <button onclick="ajouterAuCalcul('/')">/</button>
+            <button onclick="ajouterAuCalcul('*')">x</button>
         </div>
-        <div>
+        <div class="result">
             <input type="text" name="resultat" id="resultat">
+            <button onclick="calculer()">=</button>
         </div>
     </div>
 
