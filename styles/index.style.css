@@ -1,0 +1,11 @@
+.body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    order: 1;
+}
+
+img{
+    height: 400px;
+    width: 600px;
+}
